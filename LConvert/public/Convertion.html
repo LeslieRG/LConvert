@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Convertion</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script> 
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyACPrRa7XdnhNB5YiEoIzX_WU9dMO5itYw",
+        authDomain: "lconversion-rg.firebaseapp.com",
+        databaseURL: "https://lconversion-rg.firebaseio.com",
+        projectId: "lconversion-rg",
+        storageBucket: "lconversion-rg.appspot.com",
+        messagingSenderId: "257583883226"
+      };
+      firebase.initializeApp(config);
+    </script>
+   <link href="css/Apareance.css">
+   <script src="js/jsforms.js"></script>
+  </head>
+  <body>
+
+    <div align="center" style="background: #337ab7; color:#ffffff">
+                <hr>
+                <h2>Welcome to L Convertion</h2>
+                <h4>Please introduce the list of number that you wish to convert</h4><hr>
+    </div>
+    <div class="row">
+        <div class="container" align="center">
+            
+        
+    <form>
+        <div id="contact-form" class="container" data-form-container>
+        
+        <div class="container">
+           
+                <span class="req-input valid" >
+                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Input your post title."> </span>
+                    <h3>Create Post</h3>
+                    <h4>
+                        Please introduce the numbers here
+                    </h4>
+                </span>
+           
+            
+                <span class="req-input message-box valid">
+                    <span class="input-status" data-toggle="tooltip" data-placement="top" title="Post Contents."> </span>
+
+                    <div class="col-md-12" style="border: 5px;padding: 5px;">
+
+                        <div class="col-md-1"></div>
+                        <div class="col-md-2">
+                            <input type="text" data-min-length="8" class="form-control"  placeholder="number1" id="tbNo1"><br>
+                        </div>
+
+                        <div class="col-md-2">
+                            <input type="text" data-min-length="8" class="form-control" placeholder="number2"  id="tbNo2"><br>
+                        </div>
+
+                        <div class="col-md-2">
+                            <input type="text" data-min-length="8" class="form-control" placeholder="number3"  id="tbNo3"><br>
+                        </div>
+
+                        <div class="col-md-2">
+                            <input type="text" data-min-length="8" class="form-control" placeholder="number4"  id="tbNo4"><br>
+                        </div>
+                        <div class="col-md-2">
+                            <input type="text" data-min-length="8" class="form-control" placeholder="number5"  id="tbNo5"><br>
+                        </div>
+                        <div class="col-md-1"></div>
+                        <br><br><br>
+                    </div>
+            
+                    
+            
+                <button type="button" class="btn btn-success submit-form valid">Submit</button><hr>
+            
+        </div>
+        </div>
+        </form> 
+
+        <table class="table table-hover">
+            <h4 id="titleOne">{Title}</h4>
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">1er</th>
+      <th scope="col">2do</th>
+      <th scope="col">3er</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>05</td>
+      <td>24</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>02</td>
+      <td>14</td>
+      <td>@15</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>2</td>
+      <td>16</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr>
+
+<table class="table table-striped">
+     <h4 id="titleTwo">{Title}</h4>
+  <thead class="thead-dark">
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">1er</th>
+      <th scope="col">2do</th>
+      <th scope="col">3er</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>05</td>
+      <td>24</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>02</td>
+      <td>14</td>
+      <td>@15</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>2</td>
+      <td>16</td>
+      <td>25</td>
+    </tr>
+  </tbody>
+</table>
+
+        </div>
+        
+    </div>   
+</body>
+</html>

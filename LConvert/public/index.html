@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>login</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyACPrRa7XdnhNB5YiEoIzX_WU9dMO5itYw",
+        authDomain: "lconversion-rg.firebaseapp.com",
+        databaseURL: "https://lconversion-rg.firebaseio.com",
+        projectId: "lconversion-rg",
+        storageBucket: "lconversion-rg.appspot.com",
+        messagingSenderId: "257583883226"
+      };
+      firebase.initializeApp(config);
+    </script>
+   
+  </head>
+  <body>
+    <button id="btnLogin">Login with Google</button>
+    <script src="Js/login.js"></script>
+  </body>
+</html>

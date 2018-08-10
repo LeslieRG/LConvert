@@ -1,0 +1,7 @@
+
+
+       // Binario = array => array.map(a=>a.toString(2))
+        // Octal = array => array.map(a=>a.toString(8))
+        // console.log(Binario);
+        // console.log(Octal);
+      

@@ -1,0 +1,69 @@
+$(document).ready(inicio);
+
+function inicio(){
+    if(
+    $("#tbNo1").val() !== ""  
+    // $("#tbNo2").val() !== "" ||
+    // $("#tbNo3").val() !== "" ||
+    // $("#tbNo4").val() !== "" ||
+    // $("#tbNo5").val() !== "" 
+     ){
+        ValoresParesOImpares($("#tbNo1").val())
+        // ValoresParesOImpares($("#tbNo2").val())
+        // ValoresParesOImpares($("#tbNo3").val())
+        // ValoresParesOImpares($("#tbNo4").val())
+        // ValoresParesOImpares($("#tbNo5").val())
+    }
+
+}
+
+function ValoresParesOImpares(){
+    let array = 
+        $("#tbNo1").val().replace(/[^0-9,]/g,'').split(',')
+        // $("tbnNo2").val(),
+        // $("tbnNo3").val(),
+        // $("tbnNo4").val(),
+        // $("tbnNo5").val()
+    
+    pares = array.filter(a=>!(a%2)).length
+    impares = array.length - pares
+
+    //var numbers = new Array();
+    // if(srt === "") return 0;
+    //var comparar = str % 2;
+    //var counterpares = 0;
+    //var countimpar = 0
+    //if(str == 0)
+    /*{
+        counterpares++;
+
+    }else{
+        countimpar++;
+    }*/
+
+    if(pares>impares){
+        console.log(HexadecimalOctal(array));
+    }
+    else{
+        console.log(OctalBinario(array));
+
+        table = $('#asd');
+       
+        for(var i = 0; i< r.length; i++){
+            tr = $('<tr>');
+            td = $('<td>').html(r[i])
+            tr.append(td)
+            table.append(tr)
+        }
+        table.append(tr)
+    }
+
+}
+
+var algo = Hexadecimal(array)
+
+
+Hexadecimal = arr => arr.map(a=>a.toString(16))
+Octal = arr => arr.map(a=>a.toString(8))
+
+codegolf.stackexchange.com

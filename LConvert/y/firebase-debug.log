@@ -1,0 +1,41 @@
+[debug] [2018-08-10T06:46:02.172Z] ----------------------------------------------------------------------
+[debug] [2018-08-10T06:46:02.175Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\lesli\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-08-10T06:46:02.175Z] CLI Version:   4.0.3
+[debug] [2018-08-10T06:46:02.175Z] Platform:      win32
+[debug] [2018-08-10T06:46:02.175Z] Node Version:  v8.11.3
+[debug] [2018-08-10T06:46:02.176Z] Time:          Fri Aug 10 2018 02:46:02 GMT-0400 (SA Western Standard Time)
+[debug] [2018-08-10T06:46:02.176Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-08-10T06:46:02.187Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-08-10T06:46:02.187Z] > authorizing via signed-in user
+[debug] [2018-08-10T06:46:02.189Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-08-10T06:46:02.190Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/gceB_Oqjpxja_2PSZZktEH8hxXsQmeYyAQ0PFz48-Io',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Fri Aug 10 2018 02:46:02 GMT-0400 (SA Western Standard Time)
+[debug] [2018-08-10T06:46:02.534Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-10T06:46:02.551Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/lconversion-rg  
+  
+ Fri Aug 10 2018 02:46:02 GMT-0400 (SA Western Standard Time)
+[debug] [2018-08-10T06:46:03.106Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-10T06:46:03.107Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/lconversion-rg/tokens  
+  
+ Fri Aug 10 2018 02:46:03 GMT-0400 (SA Western Standard Time)
+[debug] [2018-08-10T06:46:03.600Z] <<< HTTP RESPONSE 200
+[debug] [2018-08-10T06:46:03.601Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/lconversion-rg  
+  
+ Fri Aug 10 2018 02:46:03 GMT-0400 (SA Western Standard Time)
+[debug] [2018-08-10T06:46:04.043Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\lesli\Desktop\LConvert'...
+[info] 
+[debug] [2018-08-10T06:46:04.046Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/257583883226/clients/_:getWebAppConfig  
+  
+ Fri Aug 10 2018 02:46:04 GMT-0400 (SA Western Standard Time)
+[debug] [2018-08-10T06:46:04.671Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: y
+[info] +  hosting: Local server: http://localhost:5000
+
